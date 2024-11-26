@@ -1,0 +1,5 @@
+# Ignorar a pasta arquivos_csv
+arquivos_csv/
+
+# Ignorar a pasta src/local_data
+src/local_data/

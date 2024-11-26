@@ -1,0 +1,7 @@
+pandas
+minio
+pyarrow
+psycopg2-binary
+soda
+soda-core
+soda-core-postgres
