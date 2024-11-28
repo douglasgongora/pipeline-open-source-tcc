@@ -1,19 +1,16 @@
 # Pipeline ETL
 
-Este pipeline ETL foi projetado para extrair, transformar e carregar dados, integrando várias ferramentas modernas.
+O pipeline ETL (Extração, Transformação e Carga) foi implementado utilizando Python e Pandas. Esta seção descreve cada uma das etapas principais.
 
-## **Fluxo do Pipeline**
-1. **Extração**:
-   - Dados extraídos do banco de dados PostgreSQL.
-2. **Transformação**:
-   - Validação de qualidade utilizando **Soda Core**.
-   - Conversão para o formato **CSV**.
-3. **Carregamento**:
-   - Dados salvos no **MinIO**.
+## Extração de Dados
+Exemplo de Extração utilizando arquivos csv:
+![Exemplo de Extração utilizando arquivos csv.](images/extract_csv_cod_completo.png)
+Exemplo de Extração utilizando banco de dados:
+![Exemplo de Extração utilizando banco de dados.](images/extract_db.png)
+![Exemplo de Extração utilizando banco de dados.](images/extract_db2.png)
 
-## **Tecnologias Utilizadas**
-- **PostgreSQL**: Banco de dados relacional.
-- **Pandas**: Manipulação de dados.
-- **MinIO**: Armazenamento de objetos compatível com S3.
+## Transformação de Dados
+Detalhe as transformações aplicadas.
 
-*(Adicione prints ou diagramas do pipeline aqui.)*
+## Carregamento de Dados
+![Upload para MinIO](assets/upload_minio.png)

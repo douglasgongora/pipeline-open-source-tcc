@@ -1,13 +1,10 @@
-# Bem-vindo ao Projeto TCC
+# Documentação do Pipeline de Dados
 
-Este projeto implementa um pipeline ETL completo, integrando ferramentas como **Apache Airflow**, **Trino** e **Superset** para processamento, consulta e visualização de dados.
+Este projeto documenta a construção de um pipeline escalável utilizando tecnologias open-source como Docker, Airflow, MinIO, Trino, Superset e MkDocs.
 
-## **Objetivo do Projeto**
-O objetivo é demonstrar a implementação de um pipeline moderno que:
-- Extrai dados do **PostgreSQL**.
-- Valida e transforma os dados.
-- Carrega os dados no **MinIO**.
-- Consulta os dados processados via **Trino**.
-- Visualiza os resultados no **Superset**.
+![Diagrama da Arquitetura](images/diagrama.png)
 
-Navegue pelos tópicos no menu para saber mais.
+## Objetivos
+- Processamento eficiente de grandes volumes de dados.
+- Integração de ferramentas open-source.
+- Escalabilidade e modularidade.
