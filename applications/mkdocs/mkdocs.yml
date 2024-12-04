@@ -22,9 +22,7 @@ nav:
   - Airflow: airflow.md
   - Trino: trino.md
   - Superset: superset.md
-  - Conclusão: conclusao.md
-  - teste: dataquality.md
-
+  
 markdown_extensions:
   - pymdownx.highlight:
       anchor_linenums: true

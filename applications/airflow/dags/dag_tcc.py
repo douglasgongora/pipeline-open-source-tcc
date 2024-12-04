@@ -17,7 +17,7 @@ def dag_etl_pipeline_tcc():
 
     docker_task = DockerOperator(
         task_id="run_docker_python_access",
-        image="pipeline-tcc",
+        image="tcc_projeto",
         docker_url="tcp://docker-proxy:2375",
         network_mode="tcc",
         command="python3 orchestrator.py",

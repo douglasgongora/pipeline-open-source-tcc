@@ -9,8 +9,7 @@ Exemplo de Extração utilizando banco de dados:
 ![Exemplo de Extração utilizando banco de dados.](images/extract_db.png)
 ![Exemplo de Extração utilizando banco de dados.](images/extract_db2.png)
 
-## Transformação de Dados
-Detalhe as transformações aplicadas.
-
-## Carregamento de Dados
-![Upload para MinIO](assets/upload_minio.png)
+## Transformação de DataQuality
+![Transformação de DataQuality](images/qualidade.png)
+## Carregamento de Dados no Minio
+![Upload para MinIO](images/landing.png)

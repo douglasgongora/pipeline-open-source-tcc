@@ -1,4 +1,4 @@
-#!/home/douglas/docker/zero-to-know-what-docker-and-linux/venv/bin/python3
+#!/home/douglas/docker/tcc_project/venv/bin/python3
 # -*- coding: utf-8 -*-
 import re
 import sys

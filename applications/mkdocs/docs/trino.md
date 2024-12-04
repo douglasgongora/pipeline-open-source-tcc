@@ -8,26 +8,5 @@ O **Trino** foi configurado para consultar dados processados e armazenados no **
 
 Os dados do MinIO foram expostos ao Trino utilizando a tabela abaixo:
 
-```sql
-CREATE TABLE hive.landing.preco_automotivo (
-   estado VARCHAR,
-   municipio VARCHAR,
-   revenda VARCHAR,
-   cnpj_da_revenda VARCHAR,
-   nome_da_rua VARCHAR,
-   numero_rua VARCHAR,
-   complemento VARCHAR,
-   bairro VARCHAR,
-   cep VARCHAR,
-   produto VARCHAR,
-   data_da_coleta VARCHAR,
-   valor_de_venda VARCHAR,
-   valor_de_compra VARCHAR,
-   unidade_de_medida VARCHAR,
-   bandeira VARCHAR,
-   last_update VARCHAR
-)
-WITH (
-   external_location = 's3a://landing/preco_automotivo',
-   format = 'csv'
-);
+## *Código da tabela*
+![Imagemi](./images/codigo_trino.png)

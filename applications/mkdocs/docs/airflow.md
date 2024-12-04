@@ -9,5 +9,4 @@ A DAG `dag_etl_pipeline_tcc` contém as seguintes etapas:
 3. **Carregamento**: Salva os arquivos processados no **MinIO**.
 
 ## **Código da DAG**
-```python
-# Insira o código da DAG do Airflow
+![Imagemi](./images/dag.png)
