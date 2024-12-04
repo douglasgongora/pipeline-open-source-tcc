@@ -4,8 +4,10 @@ FROM python:3.10-slim
 # Define o diretório de trabalho na imagem
 WORKDIR /src
 
+
 # Copia o arquivo de requisitos para a imagem
 COPY requirements.txt .
+COPY ./arquivos_csv arquivos_csv/
 
 # Instala as dependências listadas no arquivo requirements.txt
 RUN pip install --no-cache-dir -r requirements.txt

@@ -23,6 +23,13 @@ def dag_etl_pipeline_tcc():
         command="python3 orchestrator.py",
         container_name=container_name,
         auto_remove=True,
+        mounts=[
+            {
+                "source": "/home/douglas/docker/tcc_project/arquivos_csv",
+                "target": "/src/arquivos_csv",
+                "type": "bind",
+            }
+        ],
     )
 
     docker_task

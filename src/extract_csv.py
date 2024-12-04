@@ -33,6 +33,7 @@ def save_dataframe(df, file_path):
 def main():
     logging.info("Iniciando a extração de todos os arquivos CSV na pasta...")
 
+    ##folder_path = "./arquivos_csv"
     folder_path = "/home/douglas/docker/tcc_project/arquivos_csv"
 
     for file_name in os.listdir(folder_path):
